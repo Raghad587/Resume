@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #a4c4e7;
+    color: white;
+    padding: 20px;
+}
+
+#education, #projects {
+    background: white;
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+}
+a {
+    color: blue;
+}
+
+h1, h2, h3 {
+    color: #242121;
+}
+
+ul li {
+    list-style-type: none;
+    background: #ddd;
+    margin: 5px 0;
+    padding: 10px;
+}
+
+footer {
+    background: #a4c4e7;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;  
+    }
+    #education, #projects {
+        width: 95%;  
+    }
+}
